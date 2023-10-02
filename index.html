@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <title>Vegan Substitutes Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!--Barra de Header con navegador Home y paginas internas-->
+    <header>
+        <nav class="navbar navbar-expand-lg custom-header">
+            <div class="container-fluid">
+                <img class="logo" src="./img/favicon.png" alt="favicom">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Main Index-->
+    <main class="main_index">
+        <!--TITULO-->
+        <section>
+            <h1>Vegan Substitutes Finder</h1>
+        </section>
+        <!--Box con link a pagina de los substitutos mas buscados-->
+        <section class="grilla_box">
+            <section class="box">
+                <h5>Substitutos mas buscados:</h5>
+                <ul class="lista_subst">
+                    <li>
+                        <a href="./pages/substitutos_mas_buscados.html">Leche</a>
+                    </li>
+                    <li>
+                        <a href="./pages/substitutos_mas_buscados.html">Huevo</a>
+                    </li>
+                    <li>
+                        <a href="./pages/substitutos_mas_buscados.html">Manteca</a>
+                    </li>
+                    <li>
+                        <a href="./pages/substitutos_mas_buscados.html">Grasa</a>
+                    </li>
+                </ul>
+            </section>
+            <!--Box con link a V-Blog-->
+            <section class="box">
+                <h5>V-Blog</h5>
+                <ul class="v_blog">
+                    <li>
+                        <img src="./img/icono_como_comenzar_cambio.png" alt="icono_como_comenzar_cambio"
+                            class="icono_v-vlog" /><a href="./pages/como_comenzar_el_cambio.html"
+                            class="como_comenzar_el_cambio">Cómo comenzar el cambio</a>
+                    </li>
+                    <li>
+                        <img src="./img/icono_recetas_basicas.png" alt="icono_recetas_basicas" class="icono_v-vlog" /><a
+                            href="./pages/recetas_basicas.html" class="recetas_basicas">Recetas básicas</a>
+                    </li>
+                    <li>
+                        <img src="./img/icono_v_nutris.png" alt="icono_v_nutris" class="icono_v-vlog" /><a
+                            href="./pages/v-nutris.html" class="v_nutris">V-Nutris</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <!--Banner interactivo con link a la pagina de V-Aactivism-->
+        <section class="banner">
+            <div class="capa"></div>
+            <a href="./pages/v-activism.html" class="link_v_activism"> V-Activism </a>
+        </section>
+        <!--Link a la pagina Buscador de recetas sin contenido hasta aprender las herramientas correspondientes-->
+        <section>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary boton_buscador" type="button" href="./pages/buscador_de_recetas.html">Buscador de V-Recetas</button>
+            </div>
+        </section>
+    </main>
+    <!--Footer con links de navegacion hacia las paginas de instagram y face asociados a esta web-->
+    <footer>
+        <nav>
+            <ul>
+                <ul>
+                    <!--Link Instagram-->
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="./img/instagram_logo_2-png.png" alt="logo de instagram" class="logo" /></a>
+                    </li>
+                    <!--Link Facebook-->
+                    <li>
+                        <a href="https://es-la.facebook.com/" target="_blank">
+                            <img src="./img/facebook_logo.png" alt="logo de facebook" class="logo" /></a>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

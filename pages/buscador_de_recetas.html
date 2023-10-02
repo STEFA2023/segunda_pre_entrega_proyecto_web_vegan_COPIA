@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.png">
+    <title>Vegan Substitute Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg custom-header">
+            <div class="container-fluid">
+                <img class="logo" src="../img/favicon.png" alt="favicom">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Main Buscador de recetas-->
+    <main class="buscador_de_recetas">
+        <!--Titulo-->
+        <section>
+            <h1>Buscador de Recetas</h1>
+        </section>
+        <!--Byscador de alimentos en base de datos interna, de momento con motor google hasta que aprendamos las herramientas correspoondientes-->
+        <section>
+            <h5>Que alimentos quieres incluir en tu busqueda? :</h5>
+        </section>
+        <section class="form_buscador">
+            <div class="conjunto_buscadores">
+                <form action="https://www.google.com/search" method="GET">
+                    <input type="text" name="q" placeholder="Buscar...">
+                    <input type="submit" value="Buscar">
+                </form>
+                <form action="https://www.google.com/search" method="GET">
+                    <input type="text" name="q" placeholder="Buscar...">
+                    <input type="submit" value="Buscar">
+                </form>
+                <form action="https://www.google.com/search" method="GET">
+                    <input type="text" name="q" placeholder="Buscar...">
+                    <input type="submit" value="Buscar">
+                </form>
+                <form action="https://www.google.com/search" method="GET">
+                    <input type="text" name="q" placeholder="Buscar...">
+                    <input type="submit" value="Buscar">
+                </form>
+            </div>
+        </section>
+        <!--Video con ideas de cocina-->
+        <section class="video_buscador">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pi7MwJSnllw?si=xEiPl-86Mc9lGwIk"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+
+        <!--AGREGAR CUADRO DE RESULTADO DE LA BUSQUEDA momentaneamente sin contendo hasta aprender las herramientas correspondientes-->
+    </main>
+    <!--Footer con links de navegacion hacia las paginas de instagram y face asociados a esta web-->
+    <footer>
+        <nav>
+            <ul>
+                <ul>
+                    <!--Link Instagram-->
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="../img/instagram_logo_2-png.png" alt="logo de instagram" class="logo"></a>
+                    </li>
+                    <!--Link Facebook-->
+                    <li>
+                        <a href="https://es-la.facebook.com/" target="_blank">
+                            <img src="../img/facebook_logo.png" alt="logo de facebook" class="logo"></a>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

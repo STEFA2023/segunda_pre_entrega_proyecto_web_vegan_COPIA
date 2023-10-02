@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Friendly Schoolmates";
+    src: url(../font/Friendly\ Schoolmates\ \(Italic\)\ Font\ by\ Situjuh\ \(7NTypes\).otf);
+}
+
+@font-face {
+    font-family: "PoetsenOne_regular";
+    src: url(../font/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Simply_Rounded";
+    src: url(../font/Simply\ Rounded.ttf);
+}
+
+/*HEADER*/
+
+header {
+    background-color: #CFF6CF;
+    height: auto;
+}
+
+.nav-link {
+    justify-content: space-around;
+    color: #edb1ed;
+    font-family: "Simply_Rounded"
+}
+
+/*MAIN INDEX*/
+
+.main_index{
+    background-image: url(../img/fondo_index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+main h1{
+    font-family: "Friendly Schoolmates";
+    display: flex;
+    background-color: #ecffec;
+    background-position: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 20%;
+}
+
+.box{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    width:fit-content;
+    padding: 30px;
+    margin: 13%;
+    border-radius: 10px;
+    background-color: #cfe5cf96;
+    font-family: "PoetsenOne_regular";
+}
+
+main section h5{
+    font-family: "PoetsenOne_regular";
+    text-align: center;
+}
+
+.lista_subst li a{
+    color: #edb1ed
+}
+.v_blog{
+    list-style-type: none;
+    text-align: left;
+}
+
+.v_blog li a{
+    color: #edb1ed;
+}
+
+/*Banner*/
+
+.banner{
+    width: 100%;
+    height: 250px;
+    animation: banner 10s infinite linear alternate;
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+@keyframes banner{
+    0%, 20%{
+        background-image: url(../img/cerdito_banner_index.png);
+    }
+    25%, 45%{
+        background-image: url(../img/cordero_banner_index.png);
+    }
+    50%, 70%{
+        background-image: url(../img/vacas_banner_index.png);
+    }
+    75%, 100%{
+        background-image: url(../img/monos_banner_index.png);
+    }
+}
+
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.link_v_activism{
+    z-index: 1;
+    text-align: center;
+    color: #edb1ed;
+    text-decoration: none;
+    background: #cff6cf4d;
+    padding: 5px 5px;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: "Simply_Rounded"
+}
+
+/*Buscador de V-recetas*/
+
+.boton_buscador{
+    background-color: #cfe5cf96;
+    padding: 5%;
+    margin: 10%;
+    color: #edb1ed;
+    font-family: "Simply_Rounded";
+    border-color: transparent;
+    
+}
+
+.btn-primary{
+    --bs-btn-active-bg: #edb1ed;
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-hover-bg: #edb1ed;
+    --bs-btn-hover-border-color: transparent;
+}
+
+/*MAIN ABOUT US*/
+
+.main_about_us{
+    background-image: url(../img/fondo_about_us.jpg);
+    background-size: contain;
+    padding: 20px;
+}
+.about_us{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 20px;
+    background-color: #ecffec7e
+}
+
+main section h3{
+    font-family: "PoetsenOne_regular"
+}
+
+/*MAIN BUSCADOR DE V_RECETAS*/
+
+.buscador_de_recetas{
+    background-image: url(../img/fondo_buscador_recetas.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+    main section h5{
+    padding: 10%;
+}
+
+/*Form Buscadores*/
+
+.conjunto_buscadores{
+    display: grid;
+    justify-items: center;
+    row-gap: 10%;
+    padding: 10%;
+}
+
+/*Video*/
+
+.video_buscador{
+    display: flex;
+    padding: 10%;
+}
+
+/*MAIN COMO COMENZAR EL CAMBIO*/
+
+.main_comenzar_el_cambio{
+    background-image: url(../img/fondo_comenzar_el_cambio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+section h1{
+    text-align: center;
+}
+
+div h3{
+    text-align: center;
+    padding: 10%;
+}
+
+.texto_cambio p{
+    display: grid;
+    justify-items: center;
+    column-gap: 5%;
+    padding: 5%;
+    margin: 10%;
+    background-color: #cfe5cf96
+}
+
+/*Video*/
+
+.video_cambio{
+    display: flex;
+    padding: 10%;
+}
+
+/*MAIN CONTACT*/
+
+.main_contact{
+    background-image: url(../img/fondo_contacto_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+/*Formulario de contacto*/
+
+.formulario_de_contacto{
+    padding: 5%;
+}
+
+.form-label{
+    color: #edb1ed;
+    font-family: "PoetsenOne_regular"
+}
+
+.email{
+    color: #edb1ed;
+    font-size: 16px;
+    font-family: "PoetsenOne_regular"
+}
+
+/*MAIN RECETAS BASICAS*/
+
+.main_recetas_basicas{
+    background-image: url(../img/fondo_recetas_basicas.jpg);
+    background-size:cover;
+    padding: 20px;
+}
+
+.recetas_basicas_intro{
+    display: block;
+    margin: 30px;
+    padding: 20PX;
+    background-color: #ecffec7e ;
+    background-position: center;
+    font-family: "Simply_Rounded";
+}
+
+/*Receta 1*/
+
+.receta_1{
+    display: block;
+    margin: 30px;
+    padding: 20px;
+    background-color: #ecffec7e ;
+    background-position: center;
+    font-family: "Simply_Rounded";
+}
+
+.foto_recetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen_receta_1{
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+}
+
+/*Receta 2*/
+
+.receta_2{
+    display: block;
+    margin: 30px;
+    padding: 20px;
+    background-color: #ecffec7e ;
+    background-position: center;
+    font-family: "Simply_Rounded";
+}
+
+.imagen_receta_2{
+    width: 50%;
+    padding: 10px;
+    margin: 20px;
+}
+
+/*MAIN SUBSTITUTOS MAS BUSCADOS*/
+
+.main_substitutos_mas_buscados{
+    background-image: url(../img/fondo_substitutos_veganos.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.substitutos_mas_buscados{
+    font-family: "Simply_Rounded";
+    background-color: #ecffec96;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    margin: 8%;
+    padding: 5%;
+}
+
+/*MAIN V-ACTIVISM*/
+
+main nav h3{
+    font-family: "PoetsenOne_regular";
+    text-align: center;
+}
+
+.main_intro_avtivismo{
+    background-image: url(../img/fondo_v_activism_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.introduccion_activismo{
+    font-family: "Simply_Rounded";
+    background-color: #ecffec96;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    margin: 8%;
+    padding: 20px;
+}
+
+/*Grid con links*/
+
+.box_con_links{
+    display:grid;
+    grid-template-columns: repeat(3, 100px);
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-auto-flow: row;
+    justify-content: space-evenly;
+    padding: 10%;
+}
+
+/*MAIN V-NUTRIS*/
+
+.main_v_nutris{
+    background-image: url(../img/fondo_v_nutris.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.foto_presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto_nutri_1{
+    width: 30%;
+}
+
+.presentacion_nutris{
+    font-family: "Simply_Rounded";
+    background-color: #ecffec96;
+    display: block;
+    background-position: center;
+    margin: 10%;
+    padding: 20px;
+}
+
+.foto_nutri_2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+/*FOOTER*/
+
+footer{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #CFE5CF;
+}
+
+footer nav ul li{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 0%;
+}
+
+dl, ol, ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.logo{
+    width: 50px;
+    padding: 10px;
+}
+
+/*MEDIA QUERIES*/
+
+/*Movile*/
+
+/*Tablet*/
+
+/*Desktop*/
+
+@media (min-width:1200px){
+    .grilla_box{
+        display: flex;
+        flex-direction: row;
+    }
+    .banner{
+        max-width: 70%;
+        height: 350px;
+        margin: 15%;
+    }
+    .formulario_de_contacto{
+        margin: 15%;
+        justify-items: center;
+    }
+    .video_cambio{
+        justify-content: center;
+    }
+    .imagen_receta_1{
+        width: 250px;
+    }
+    .video_buscador{
+        justify-content: center;
+    }
+}

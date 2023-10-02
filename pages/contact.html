@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.png">
+    <title>Vegan Substitute Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!--Barra de Header con navegador Home y paginas internas-->
+    <header>
+        <nav class="navbar navbar-expand-lg custom-header">
+            <div class="container-fluid">
+                <img class="logo" src="../img/favicon.png" alt="favicom">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Main Cintact-->
+    <main class="main_contact">
+        <!--Titulo-->
+        <section>
+            <h1>Contact</h1>
+        </section>
+        <!--Formulario de contacto-->
+        <section class="formulario_de_contacto">
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa tu nombre aqui">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Apellido:</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2"
+                    placeholder="Ingresa tu apellido aqui">
+            </div>
+            <div class="row mb-3">
+                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm email">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-sm" id="colFormLabelSm"
+                        placeholder="example@email.com">
+                </div>
+            </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Ingresa tu mensaje:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+        </section>
+    </main>
+    <!--Footer con links de navegacion hacia las paginas de instagram y face asociados a esta web-->
+    <footer>
+        <nav>
+            <ul>
+                <ul>
+                    <!--Link Instagram-->
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="../img/instagram_logo_2-png.png" alt="logo de instagram" class="logo"></a>
+                    </li>
+                    <!--Link Facebook-->
+                    <li>
+                        <a href="https://es-la.facebook.com/" target="_blank">
+                            <img src="../img/facebook_logo.png" alt="logo de facebook" class="logo"></a>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
